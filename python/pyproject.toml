@@ -1,0 +1,12 @@
+[project]
+name = "algolens-code-python"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
